@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="images/jpg" href="images/favicon.png">
+    <title>My Shop</title>
+    <style>
+                body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Banner */
+        header.banner {
+            background-image: url("background.jpg"); /* use your uploaded image filename */
+            background-size: cover;             
+            background-position: center;
+            background-color: blue;
+            height: 400px;                      
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 6px black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: blue;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Sections */
+        section {
+            padding: 30px;
+        }
+
+        /* Gallery Table */
+        table {
+            width: 100%;
+            border-spacing: 20px;
+            text-align: center;
+        }
+        td {
+            vertical-align: top;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        td img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+        }
+        .buy-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            background-color: blue;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .buy-btn:hover {
+            background-color: darkblue;
+        }
+
+        /* Footer */
+        footer {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="banner" id="home">
+         <div class="header-content">
+         <h1>MILKTEA Shop</h1>
+         <p>Refreshing Drinks & Sweet Moments</p>
+         <img src="rsc/favicon/backgound.jpg" width="5000px" height="300px"
+      </div>
+     </header>
+    
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#info">Shop Information</a>
+        <a href="#gallery">Shop Gallery</a>
+        <a href="#footer">Footer</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to MILKTEA Shop</h2>
+    </section>
+
+    <!-- Shop Information -->
+    <section id="info">
+        <h2>Shop Information</h2>
+        <h5>Shop Name:</h5>
+        <p>MILKTEA Shop</p>
+
+        <h5>Shop Address:</h5>
+        <p>Bani Santa Lucia Ilocos Sur</p>
+
+        <h5>Shop Number:</h5>
+        <p>+63 926 816 1552</p>
+
+        <h5>Shop Email Address:</h5>
+        <p>milkteashop@email.com</p>
+
+        <h5>Operating Hours:</h5>
+        <p>Monday - Saturday: 9:00 AM - 7:00 PM</p>
+    </section>
+
+    <!-- Shop Gallery -->
+    <section id="gallery" class="gallery">
+        <h2>Shop Gallery</h2>
+        <table>
+            <tr>
+                <td>
+                    <img src="rsc/images/pic 1.jpg">
+                    <h3><b>Okinawa Milk Tea</b></h3>
+                    <p>A rich blend of black tea and Okinawa brown sugar, perfectly creamy with a hint of caramel sweetness. 
+                        A toasty, comforting drink that a favorite for milk tea lovers!</p>
+                    <h4><b>₱90</b></h4>
+                    <a href="#" class="buy-btn">Buy Now</a>
+                </td>
+                <td>
+                    <img src="rsc/images/pic 2.jpg">
+                    <h3><b>Chocolate Milk Tea</b></h3>
+                    <p>A velvety mix of tea, milk, and chocolatey goodness.
+                        Smooth, sweet, and simply irresistible!</p>
+                    <h4><b>₱100</b></h4>
+                    <a href="#" class="buy-btn">Buy Now</a>
+                </td>
+                <td>
+                    <img src="rsc/images/pic 3.jpg">
+                    <h3><b>Red Velvet Milk Tea</b></h3>
+                    <p>A dreamy mix of tea, milk, and the classic red velvet flavor you love. Sweet, creamy, and oh-so-irresistible!</p>
+                    <h4><b>₱75</b></h4>
+                    <a href="#" class="buy-btn">Buy Now</a>
+                </td>
+                <td>
+                    <img src="rsc/images/pic 4.jpg">
+                    <h3><b>Taro Milk Tea</b></h3>
+                    <p>A creamy, purple delight with a sweet and nutty flavor.
+                        Smooth, unique, and loved by milk tea fans everywhere!</p>
+                    <h4><b>₱89</b></h4>
+                    <a href="#" class="buy-btn">Buy Now</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="rsc/images/pic 5.jpg">
+                    <h3><b>Cookies & Cream Milk Tea</b></h3>
+                    <p>A creamy mix of tea, milk, and cookie goodness. Sweet, crunchy, and dessert in a cup!</p>
+                    <h4><b>₱100</b></h4>
+                    <a href="#" class="buy-btn">Buy Now</a>
+                </td>
+                <td>
+                    <img src="rsc/images/pic 6.jpg">
+                    <h3><b>Matcha Milk Tea</b></h3>
+                    <p>A smooth blend of green tea and creamy milk with a perfect balance of earthy and sweet flavors.
+                        Refreshing, healthy, and oh-so-satisfying!</p>
+                    <h4><b>₱120</b></h4>
+                    <a href="#" class="buy-btn">Buy Now</a>
+                </td>
+                <td>
+                    <img src="rsc/images/pic 7.jpg">
+                    <h3><b>Wintermelon Milk Tea</b></h3>
+                    <p>A sweet and refreshing blend with a hint of honey-like flavor. Smooth, light, and simply comforting!</p>
+                    <h4><b>₱130</b></h4>
+                    <a href="#" class="buy-btn">Buy Now</a>
+                </td>
+                <td>
+                    <img src="rsc/images/pic 8.jpg">
+                    <h3><b>Black Forest Milk Tea</b></h3>
+                    <p>A luscious mix of chocolate, cherry, and creamy milk tea. Dessert in a cup that as irresistible as the cake itself!</p>
+                    <h4><b>₱100</b></h4>
+                    <a href="#" class="buy-btn">Buy Now</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="rsc/images/pic 9.jpg">
+                    <h3><b>Hazelnut Milk Tea</b></h3>
+                    <p>A creamy mix of milk tea with the roasted, nutty sweetness of hazelnuts. Smooth, cozy, and perfectly indulgent!</p>
+                    <h4><b>₱90</b></h4>
+                    <a href="#" class="buy-btn">Buy Now</a>
+                </td>
+                <td>
+                    <img src="rsc/images/pic 10.jpg">
+                    <h3><b>Caramel Sugar Milk Tea</b></h3>
+                    <p>A rich and creamy mix of milk tea and golden caramelized sugar. Sweet, smooth, and perfectly irresistible!</p>
+                    <h4><b>₱80</b></h4>
+                    <a href="#" class="buy-btn">Buy Now</a>
+                </td>
+                <td>
+                    <img src="rsc/images/pic 11.jpg">
+                    <h3><b>Dark Chocolate Milk Tea</b></h3>
+                    <p>A smooth fusion of milk tea and rich dark chocolate. Bold, bittersweet, and irresistibly creamy!</p>
+                    <h4><b>₱100</b></h4>
+                    <a href="#" class="buy-btn">Buy Now</a>
+                </td>
+                <td>
+                    <img src="rsc/images/pic 12.jpg">
+                    <h3><b>Thai Milk Tea</b></h3>
+                    <p>A bold and creamy orange-hued tea with a sweet, spiced flavor that both exotic and refreshing. A true Thai classic!</p>
+                    <h4><b>₱99</b></h4>
+                    <a href="#" class="buy-btn">Buy Now</a>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+       <p>Developed by: <br>Leonard H. Ramirez<br> BSCS 2B</p>
+    </footer>
+
+</body>
+</html>
+
